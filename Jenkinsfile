@@ -4,6 +4,7 @@ pipeline {
         stage('Fast Test') {
             steps {
                 echo 'Running Fast Tests'
+                python3.6 -m "nose" test_tuorial.py
             }
         }
         stage('Slow Test') {
