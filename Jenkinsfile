@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'LABEL_OF_JENKINS_WORKER' }
+    agent any
     stages {
         stage('Fast Test') {
             steps {
