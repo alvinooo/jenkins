@@ -6,7 +6,7 @@ pipeline {
                 echo 'Running Fast Tests'
             }
         }
-        stage(Slow Test') {
+        stage('Slow Test') {
             steps {
                 echo 'Running Slow Tests'
             }
